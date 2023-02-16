@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02820d88ed2c9d24598a484e7df2c4fb, type: 3}
   m_Name: SingleShot
   m_EditorClassIdentifier: 
-  shotDamage: 19
+  shotBaseDamage: 15
   maxShotDamage: 25
+  applyingShotDamage: 15

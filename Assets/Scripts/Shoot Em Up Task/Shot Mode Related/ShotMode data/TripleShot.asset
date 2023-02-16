@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e41de0b456ec048a1c593cfc5084e8, type: 3}
   m_Name: TripleShot
   m_EditorClassIdentifier: 
-  shotDamage: 14
+  shotBaseDamage: 10
   maxShotDamage: 15
+  applyingShotDamage: 10
