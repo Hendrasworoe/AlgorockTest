@@ -3,6 +3,7 @@ using UnityEngine;
 public class Enemy : Character
 {
     [SerializeField] private int _damage = 10;
+    [SerializeField] private int _scorePoint = 10;
 
     private void Update()
     {
@@ -26,6 +27,8 @@ public class Enemy : Character
     protected override void OnDie()
     {
         gameObject.SetActive(false);
+
+        ScoreManager.Instance.AddScore(_scorePoint);
     }
 
     protected virtual void EnemySetting()

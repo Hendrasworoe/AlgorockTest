@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 2736779317401666019, guid: f3f1f9f3298ca2b429bcfec7456d6092, type: 3}
   poolingAmount: 20
-  itemType: 2
+  itemType: 1
