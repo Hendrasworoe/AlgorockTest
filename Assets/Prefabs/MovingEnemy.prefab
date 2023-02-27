@@ -130,6 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _hp: 30
   _damage: 10
+  _scorePoint: 15
   _speed: 2.5
 --- !u!114 &7470264977393706249
 MonoBehaviour:
