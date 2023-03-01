@@ -307,6 +307,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166796102}
   m_CullTransparentMesh: 1
+--- !u!1 &190393233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 190393235}
+  - component: {fileID: 190393234}
+  m_Layer: 0
+  m_Name: Start Music Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &190393234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190393233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0682b6d27178bc746b7c884f7f2a5a5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicName: GameBG
+--- !u!4 &190393235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190393233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &378841169
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +493,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 90546e00e0d483d4088f39c93d2f383f, type: 2}
   - {fileID: 11400000, guid: 77b80d7e6404a4b48a608ad46079d021, type: 2}
   - {fileID: 11400000, guid: 9b0b9509e681eb449b30ba9e5948abde, type: 2}
+  - {fileID: 11400000, guid: cf0c597c4385cb74aaa481808e98a087, type: 2}
 --- !u!4 &398237844
 Transform:
   m_ObjectHideFlags: 0
@@ -1210,7 +1256,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1472940414
 GameObject:
@@ -2269,7 +2315,7 @@ RectTransform:
   - {fileID: 378841170}
   - {fileID: 1184275055}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

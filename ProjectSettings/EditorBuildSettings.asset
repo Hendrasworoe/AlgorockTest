@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Find Perfect Number.unity
-    guid: a10d5239aad60894991c9059ad47ec7c
+    path: Assets/Scenes/MainMenu.unity
+    guid: d4169a626f8e1524bb672d6ff8e6cda3
   - enabled: 1
     path: Assets/Scenes/Shoot Em Up.unity
     guid: 4e5d2a7c990100e4f8145aff571b311e

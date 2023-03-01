@@ -28,6 +28,7 @@ public class Enemy : Character
     {
         gameObject.SetActive(false);
 
+        AudioManager.Instance.PlaySfx("EnemyDestroyed");
         ScoreManager.Instance.AddScore(_scorePoint);
     }
 
