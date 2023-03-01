@@ -33,6 +33,7 @@ public class Player : Character
     protected override void OnDie()
     {
         GameManager.Instance.UpdateGameState(GameState.GameOver);
+        AudioManager.Instance.PlaySfx("Destroyed");
         gameObject.SetActive(false);
     }
 
@@ -85,6 +86,7 @@ public class Player : Character
     {
         if (Input.GetButton("Fire1") && _calculatedFireRate <= 0)
         {
+            AudioManager.Instance.PlaySfx("Shot");
             _shot(_shotPoint);
             _calculatedFireRate = _fireRate;
         }
